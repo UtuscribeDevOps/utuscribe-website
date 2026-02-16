@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ResponderLite — Utuscribe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="logo_Utuscribe_transparent.png" alt="Utuscribe logo" class="logo-img">
+    </div>
+    <nav class="site-nav">
+      <a href="responder.html" class="nav-link">Responder AI</a>
+      <a href="responderlite.html" class="nav-link nav-link-active">ResponderLite</a>
+      <a href="airscribe.html" class="nav-link">AirScribe</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="card">
+      <div class="pill">ResponderLite</div>
+
+      <section class="hero-section active">
+        <h1>ResponderLite: missed-call follow-up that converts.</h1>
+        <p class="teaser">
+          ResponderLite helps participating service businesses respond to missed calls by sending an
+          immediate, customer-care text message to the caller and collecting basic details for a fast callback.
+          No marketing. No spam. Just clean, reliable intake.
+        </p>
+
+        <div class="page-card">
+          <h2>How it works</h2>
+          <ul class="page-list">
+            <li>A customer calls your business and does not reach a live representative.</li>
+            <li>ResponderLite sends a follow-up text related directly to that missed call.</li>
+            <li>The customer replies with their name and what they need.</li>
+            <li>You receive a summary with the callback number and details.</li>
+          </ul>
+
+          <p class="teaser" style="margin-top: 10px;">
+            ResponderLite is designed for customer care and appointment coordination. It does not send promotional messages.
+          </p>
+        </div>
+
+        <section class="points">
+          <article>
+            <h3>Fast Response</h3>
+            <p>Follow up on missed calls immediately so customers do not drift to competitors.</p>
+          </article>
+          <article>
+            <h3>Clear Intake</h3>
+            <p>Collect the basics (name + request) so your callback is efficient and informed.</p>
+          </article>
+          <article>
+            <h3>On/Off Control</h3>
+            <p>Toggle service when needed. In STOP mode, calls can pass through to your business line.</p>
+          </article>
+        </section>
+
+        <p class="micro" style="margin-top: 14px;">
+          Opt-out: reply STOP to unsubscribe. Reply HELP for assistance. Message and data rates may apply.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="links">
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <span class="disabled-link">Careers (soon)</span>
+      <span class="disabled-link">Press (soon)</span>
+    </div>
+    <div class="copy">
+      © <span id="yr-responderlite"></span> Utuscribe, LLC. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("yr-responderlite").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
