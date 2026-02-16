@@ -1,22 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pricing — Utuscribe</title><meta name="robots" content="noindex, noarchive">
+  <meta charset="utf-8">
+  <title>Pricing — Utuscribe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, noarchive">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="brand"><div class="logo"></div><div class="wordmark">Utuscribe</div></div>
-    <nav class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <div class="brand">
+      <img src="logo_Utuscribe_transparent.png" alt="Utuscribe logo" class="logo-img">
+    </div>
+    <nav class="site-nav">
+      <a href="responder.html" class="nav-link">Responder AI</a>
+      <a href="responderlite.html" class="nav-link">ResponderLite</a>
+      <a href="airscribe.html" class="nav-link">AirScribe</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
   </header>
+
   <main class="hero">
     <div class="card">
-      <h1>Pricing</h1>
-      <p class="teaser">To be announced with public launch.</p>
+      <div class="pill">Pricing</div>
+
+      <section class="hero-section active">
+        <h1>Pricing</h1>
+        <p class="teaser">To be announced with public launch.</p>
+        <p class="micro">
+          If you are exploring ResponderLite or Responder AI for your business, email
+          <strong>contact@utuscribe.com</strong> and we will follow up.
+        </p>
+      </section>
     </div>
   </main>
-  <footer class="site-footer"><div class="copy">© <span id="yr"></span> Utuscribe LLC</div></footer>
-  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+
+  <footer class="site-footer">
+    <div class="links">
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <span class="disabled-link">Careers (soon)</span>
+      <span class="disabled-link">Press (soon)</span>
+    </div>
+    <div class="copy">
+      © <span id="yr-pricing"></span> Utuscribe, LLC. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("yr-pricing").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
