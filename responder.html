@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Responder AI — Utuscribe</title>
+  <title>Responder AI — AI Receptionist and Lead Response</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Request a Responder AI demo and review how SMS consent works for website form opt-in and verbal service-related opt-in."
+  >
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,9 +16,9 @@
       <img src="logo_Utuscribe_transparent.png" alt="Utuscribe logo" class="logo-img">
     </div>
     <nav class="site-nav">
+      <a href="index.html" class="nav-link">Home</a>
       <a href="responder.html" class="nav-link nav-link-active">Responder AI</a>
-      <a href="responderlite.html" class="nav-link">ResponderLite</a>
-      <a href="airscribe.html" class="nav-link">AirScribe</a>
+      <a href="pricing.html" class="nav-link">Pricing</a>
       <a href="about.html" class="nav-link">About</a>
       <a href="contact.html" class="nav-link">Contact</a>
     </nav>
@@ -31,6 +35,25 @@
           with scheduling so your business stays responsive without adding more staff.
         </p>
 
+        <div class="page-card">
+          <h2>SMS consent</h2>
+          <p class="teaser">
+            Responder AI may send text messages related to appointment scheduling, follow-up
+            communication, customer support, and service updates. Promotional or recurring marketing
+            text messages are sent only to users who have expressly opted in.
+          </p>
+          <p class="teaser">
+            Users may opt in by completing a website form and checking the SMS consent box, or by
+            requesting text communication during a live call or intake conversation for applicable
+            service-related follow-up.
+          </p>
+          <p class="teaser">
+            Message frequency varies. Message and data rates may apply. Reply STOP to opt out and
+            HELP for help. See our <a href="terms.html">Terms</a> and
+            <a href="privacy.html">Privacy Policy</a> for details.
+          </p>
+        </div>
+
         <form class="demo-form" action="#" method="post">
           <div class="form-grid">
             <div class="field">
@@ -46,6 +69,10 @@
             <div class="field">
               <label for="phone">Mobile number for demo call</label>
               <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required>
+              <p class="field-note">
+                We use this number for your demo request and service-related follow-up. Promotional
+                texts require the separate SMS opt-in below.
+              </p>
             </div>
 
             <div class="field">
@@ -86,14 +113,19 @@
             </div>
           </div>
 
+          <p class="micro">
+            By submitting this form, you agree that Responder AI may contact you about your demo
+            request and related service setup. SMS consent is optional and separate.
+          </p>
+
           <label class="consent">
-            <input type="checkbox" name="sms_consent" required>
+            <input type="checkbox" name="sms_consent">
             <span>
-              By submitting this form, you agree to receive an automated demo call and limited
-              follow-up messages about Utuscribe's services at the number provided. Message and
-              data rates may apply. You can reply STOP to opt out or HELP for help. We do not
-              share or sell your mobile information with third parties for marketing or
-              promotional purposes.
+              I agree to receive text messages from Responder AI about appointment reminders,
+              service updates, follow-ups, and occasional promotional offers. Message frequency
+              varies. Message and data rates may apply. Reply STOP to opt out and HELP for help.
+              By checking this box, I agree to the <a href="terms.html">Terms</a> and
+              <a href="privacy.html">Privacy Policy</a>.
             </span>
           </label>
 
@@ -104,6 +136,23 @@
           This form is for demo and early-access conversations only.
           We will follow up with details and scheduling once your request has been reviewed.
         </p>
+
+        <div class="page-card">
+          <h2>Verbal opt-in workflow</h2>
+          <p class="teaser">
+            During a live phone call, a Responder AI representative may ask whether the customer
+            would like to receive service-related text messages for follow-up, scheduling, or
+            account assistance. The representative explains that message frequency varies, message
+            and data rates may apply, and that the customer can reply STOP to opt out and HELP for
+            help.
+          </p>
+          <p class="teaser">
+            If the customer agrees, Responder AI sends a confirmation text and records the consent
+            method, timestamp, phone number, and staff member or workflow that collected consent.
+            Promotional or recurring marketing messages are sent only after written consent through
+            the website form.
+          </p>
+        </div>
 
         <section class="points">
           <article>

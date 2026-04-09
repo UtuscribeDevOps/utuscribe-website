@@ -298,6 +298,13 @@ textarea:focus {
   color: #cfe6f7;
 }
 
+.field-note {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #a7b2bf;
+  line-height: 1.4;
+}
+
 /* Consent checkbox */
 .consent {
   font-size: 11px;
@@ -310,6 +317,13 @@ textarea:focus {
 
 .consent input[type="checkbox"] {
   margin-top: 3px;
+}
+
+.consent a,
+.page-card a,
+.teaser a,
+.micro a {
+  color: #5cc8ff;
 }
 
 /* Primary button */
